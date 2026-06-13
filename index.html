@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanush Pandi | Portfolio - Data Science, IoT & AI</title>
+    <meta name="description" content="Portfolio of Dhanush Pandi, B.E. Electronics and Communication Engineering student specializing in Data Science, Machine Learning, IoT, and AI.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Elements -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="nav-container container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Dhanush<span class="logo-accent"> /&gt;</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#skills" class="nav-item">Skills</a>
+                <a href="#education" class="nav-item">Education</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-btn">Contact Me</a>
+            </nav>
+            <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section container">
+            <div class="hero-content">
+                <span class="hero-greeting animate-on-scroll">Hello, I'm</span>
+                <h1 class="hero-title animate-on-scroll">Dhanush Pandi</h1>
+                <h2 class="hero-subtitle animate-on-scroll">
+                    Specializing in <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-desc animate-on-scroll">
+                    An Electronics and Communication Engineering student at Sethu Institute of Technology with a strong expertise in building intelligent systems, IoT applications, and data-driven solutions.
+                </p>
+                <div class="hero-ctas animate-on-scroll">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#projects" class="btn btn-secondary">Explore Work</a>
+                </div>
+                <div class="hero-socials animate-on-scroll">
+                    <a href="https://github.com/Dhanushpandi" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/Dhanushpandi" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-image-container animate-on-scroll">
+                <div class="image-wrapper">
+                    <div class="glow-ring"></div>
+                    <img src="assets/images/profile.jpg" alt="Dhanush Pandi Portrait" class="hero-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section container section-padding">
+            <div class="section-header text-center">
+                <span class="section-tagline">Introduction</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text animate-on-scroll">
+                    <p>
+                        I am highly passionate about the convergence of <strong>Data Science</strong>, <strong>Artificial Intelligence</strong>, and <strong>Internet of Things (IoT)</strong> technologies. As an Electronics & Communication Engineering student, I enjoy bridge-building between hardware and intelligence—designing devices that sense the physical world and leveraging machine learning to make sense of the collected data.
+                    </p>
+                    <p>
+                        I continuously experiment with new tools and frameworks to build real-world systems. Whether designing automated smart agricultural frameworks, predictive analytics systems, or full-stack integrations using Gemini AI, my goal is to craft high-impact solutions.
+                    </p>
+                </div>
+                <div class="about-stats animate-on-scroll">
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="stat-val">8.2</div>
+                        <div class="stat-lbl">CGPA (ECE)</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-rocket"></i></div>
+                        <div class="stat-val">5+</div>
+                        <div class="stat-lbl">Key Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="stat-val">4</div>
+                        <div class="stat-lbl">Certifications</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon"><i class="fa-solid fa-user-group"></i></div>
+                        <div class="stat-val">President</div>
+                        <div class="stat-lbl">Electrocognizance</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section container section-padding">
+            <div class="section-header text-center">
+                <span class="section-tagline">Expertise</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Group 1 -->
+                <div class="skill-group-card animate-on-scroll">
+                    <div class="group-header">
+                        <i class="fa-solid fa-code icon-accent"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="90%"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="80%"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">MySQL</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Group 2 -->
+                <div class="skill-group-card animate-on-scroll">
+                    <div class="group-header">
+                        <i class="fa-solid fa-chart-simple icon-accent"></i>
+                        <h3>Data Science Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Power BI</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="85%"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Tableau</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="80%"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Excel</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="85%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Group 3 -->
+                <div class="skill-group-card animate-on-scroll">
+                    <div class="group-header">
+                        <i class="fa-solid fa-microchip icon-accent"></i>
+                        <h3>Core Technologies</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">IoT & Embedded Systems</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="90%"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Machine Learning & AI</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="85%"></div></div>
+                        </div>
+                        <div class="skill-bar-container">
+                            <div class="skill-info">
+                                <span class="skill-name">Git & Linux Tools</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-level="80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section container section-padding">
+            <div class="section-header text-center">
+                <span class="section-tagline">Academic Journey</span>
+                <h2 class="section-title">Education</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="edu-card animate-on-scroll">
+                <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+                <div class="edu-body">
+                    <span class="edu-duration">2022 - 2026</span>
+                    <h3>Sethu Institute of Technology</h3>
+                    <h4>B.E. Electronics and Communication Engineering</h4>
+                    <p class="edu-description">Focusing on solid-state electronics, microprocessor systems, embedded design, signals & systems, and computer vision. Blending standard electronics coursework with advanced self-driven tracks in artificial intelligence and database management.</p>
+                    <div class="edu-badge"><i class="fa-solid fa-star"></i> CGPA: 8.2 / 10</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section container section-padding">
+            <div class="section-header text-center">
+                <span class="section-tagline">Professional Experience</span>
+                <h2 class="section-title">Work Experience</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Current</span>
+                        <h3>Besant Technologies</h3>
+                        <h4>Data Science Intern</h4>
+                        <ul class="timeline-bullets">
+                            <li>Developing intermediate Python scripts, optimizing SQL queries, and carrying out advanced statistical analysis on large-scale datasets.</li>
+                            <li>Studying and prototyping machine learning models focused on classification, regression, and clustering.</li>
+                            <li>Designing clear, interactive reports using Matplotlib, Seaborn, and Power BI to translate numbers into business insights.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item animate-on-scroll">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Completed</span>
+                        <h3>Abhijith Electronic Solution</h3>
+                        <h4>IoT Applications Intern</h4>
+                        <ul class="timeline-bullets">
+                            <li>Developed reliable IoT hardware prototypes utilizing ESP32 microcontrollers.</li>
+                            <li>Integrated digital sensors and serial peripherals for low-latency, real-time data collection.</li>
+                            <li>Implemented energy-efficient Wi-Fi/Bluetooth protocols, directing sensor streams to remote cloud databases.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section container section-padding">
+            <div class="section-header text-center">
+                <span class="section-tagline">My Creations</span>
+                <h2 class="section-title">Projects</h2>
+                <div class="underline"></div>
+            </div>
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai-ds">AI & Data Science</button>
+                <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card animate-on-scroll" data-category="ai-ds">
+                    <div class="project-img-placeholder">
+                        <div class="project-overlay-glow"></div>
+                        <i class="fa-solid fa-brain project-card-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Grammar Analysis AI</h3>
+                        <p>A full-stack grammar analysis and correction web application integrated with Google Gemini API, running on a Jenkins, Docker, and Kubernetes CI/CD stack.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Spring Boot</span>
+                            <span>Gemini API</span>
+                            <span>Docker</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dhanushpandi" target="_blank" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card animate-on-scroll" data-category="iot">
+                    <div class="project-img-placeholder">
+                        <div class="project-overlay-glow"></div>
+                        <i class="fa-solid fa-crow project-card-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Scarecrow System</h3>
+                        <p>An Arduino-based smart crop protection device that detects sound/movement and actuates robotic appendages and sound triggers to keep pests away.</p>
+                        <div class="project-tech">
+                            <span>Arduino</span>
+                            <span>PIR Sensors</span>
+                            <span>Audio Module</span>
+                            <span>Robotics</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dhanushpandi" target="_blank" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card animate-on-scroll" data-category="iot">
+                    <div class="project-img-placeholder">
+                        <div class="project-overlay-glow"></div>
+                        <i class="fa-solid fa-trash-can project-card-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Smart Dustbin using ESP8266</h3>
+                        <p>An IoT-enabled smart dustbin system utilizing ESP8266 to automate open/close operations and report trash levels to cloud monitoring interfaces.</p>
+                        <div class="project-tech">
+                            <span>ESP8266</span>
+                            <span>Ultrasonic</span>
+                            <span>Servo Motor</span>
+                            <span>Thingspeak</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dhanushpandi" target="_blank" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card animate-on-scroll" data-category="ai-ds">
+                    <div class="project-img-placeholder">
+                        <div class="project-overlay-glow"></div>
+                        <i class="fa-solid fa-bolt project-card-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Electricity Intelligence</h3>
+                        <p>A data science project using Python, Pandas, and ML algorithms to analyze, model, and predict electricity consumption rates and seasonal spikes.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Scikit-Learn</span>
+                            <span>Power BI</span>
+                            <span>Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dhanushpandi" target="_blank" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card animate-on-scroll" data-category="ai-ds">
+                    <div class="project-img-placeholder">
+                        <div class="project-overlay-glow"></div>
+                        <i class="fa-solid fa-database project-card-icon"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>IPL Database System</h3>
+                        <p>Designed a complex relational MySQL database schemas for IPL league statistics, complete with custom views, triggers, and analytical procedures.</p>
+                        <div class="project-tech">
+                            <span>MySQL</span>
+                            <span>SQL Joins</span>
+                            <span>Stored Proc</span>
+                            <span>Database Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Dhanushpandi" target="_blank" class="project-link" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i> Source</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements, Leadership & Certs -->
+        <section class="achievements-section container section-padding">
+            <div class="achievements-grid">
+                <!-- Leadership -->
+                <div class="achievements-card animate-on-scroll">
+                    <div class="ach-header">
+                        <i class="fa-solid fa-shield-halved ach-icon"></i>
+                        <h3>Leadership</h3>
+                    </div>
+                    <div class="ach-body">
+                        <div class="leadership-item">
+                            <h4>President</h4>
+                            <h5>Electrocognizance 2K25</h5>
+                            <p>Organized state-level technical symposiums, managed event subcommittees, coordinated with academic faculty, and oversaw execution of complex technical competitions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="achievements-card animate-on-scroll">
+                    <div class="ach-header">
+                        <i class="fa-solid fa-certificate ach-icon"></i>
+                        <h3>Certifications</h3>
+                    </div>
+                    <div class="ach-body">
+                        <ul class="cert-list">
+                            <li>
+                                <i class="fa-solid fa-circle-check cert-check"></i>
+                                <div>
+                                    <div class="cert-name">Learn SQL</div>
+                                    <div class="cert-issuer">CodeChef</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check cert-check"></i>
+                                <div>
+                                    <div class="cert-name">Basics of Python</div>
+                                    <div class="cert-issuer">Springboard</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check cert-check"></i>
+                                <div>
+                                    <div class="cert-name">HTML CSS Bootcamp</div>
+                                    <div class="cert-issuer">LetsUpgrade</div>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle-check cert-check"></i>
+                                <div>
+                                    <div class="cert-name">Write Effective Resume & Cover Letter</div>
+                                    <div class="cert-issuer">TCS iON</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section container section-padding">
+            <div class="section-header text-center">
+                <span class="section-tagline">Get In Touch</span>
+                <h2 class="section-title">Contact</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info-panel animate-on-scroll">
+                    <h3>Let's Collaborate!</h3>
+                    <p>Open for internship opportunities, technical collaborations, and exciting projects in the domains of AI, Data Science, and IoT.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <span>Email Me</span>
+                                <a href="mailto:dhanushpandi@example.com">dhanushpandi@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <div>
+                                <span>Location</span>
+                                <p>Tamil Nadu, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-socials-row">
+                        <a href="https://github.com/Dhanushpandi" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://linkedin.com/in/Dhanushpandi" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-panel animate-on-scroll">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" required placeholder="Collaboration Opportunity">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" required rows="5" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                    <div id="form-feedback" class="form-feedback hidden"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-bottom">
+        <div class="container footer-container">
+            <p>&copy; 2026 Dhanush Pandi. All rights reserved.</p>
+            <p>Designed with <i class="fa-solid fa-heart text-accent"></i> &amp; custom-coded.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
